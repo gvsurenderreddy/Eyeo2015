@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Eyeo 2015</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+    <div class="reveal">
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section>
+                <h1 class="intro">Eyeo Festival</h1>
+                <h3>June 1-4 2015</h3>
+            </section>
+            <section>
+                <h1>D3 Workshop</h1>
+                <h3>Scott Murray</h3>
+            </section>
+            <section>
+            <section>
+                <h1>Dear Data</h1>
+                <q>"Dear Data is a year-long, analog data drawing project"</q>
+            </section>
+                <section>
+                    <h4>Week of sounds</h4>
+                <img src="assets/ddsounds.jpg"/>
+            </section>
+                <section>
+                    <h4>Week of sounds</h4>
+                <img src="assets/ddsounds2.jpg"/>
+            </section>
+                <section>
+                    <h4>Week of emotions</h4>
+                <img src="assets/ddemotions.jpg"/>
+            </section>
+                <section>
+                    <h4>Week of emotions</h4>
+                <img src="assets/ddemotions2.jpg"/>
+            </section>
+                <section>
+                    <a href="https://vimeo.com/channels/eyeo2015/133608605">Dear Data Video</a>
+                </section>
+            </section>
+            <section>
+                        <section>
+                <h1>New York Times</h1>
+                <p>
+                    write about new york times
+                </p>
+            </section>
+                <section>
+                <a href ="http://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html">You Draw It</a>
+                </section>
+                <section>
+                <a href="http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html">Budget Proposal</a>
+                </section>
+                <section>
+                    <h2>Video link</h2>
+                </section>
+            </section>
+            <section>
+            <section>
+            <h1>Connected Worlds</h1>
+                <p> write about connected worlds</p>
+                </section>
+                <section>
+                <a href="http://nysci.org/connected-worlds/">Video</a>
+                </section>
+            </section>
+            <section>
+                        <section>
+                <h1>The other stuff</h1>
+                <p>
+weird art!
+                            </p>
+            </section>
+                <section>
+                    <a href="http://mylifeaquatic.herokuapp.com/">Processing.js</a>
+                </section>
+                <section>
+                    <a href="http://www.digitalarti.com/blog/digitalarti_mag/news_from_ny_casey_reas_ultraconcentrated">Casey Reas</a>
+                </section>
+                <section>
+                    <a href="http://thesystemis.com/projects/reface/">Zach Lieberman</a>
+                </section>
+                <section>
+                <a href="http://www.fastcodesign.com/3039370/the-5-coolest-things-about-the-revamped-smithsonian-design-museum">Local Projects</a>
+                </section>
+            </section>
+            
+        </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // Full list of configuration options available at:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // Optional reveal.js plugins
+            dependencies: [
+                {
+                    src: 'lib/js/classList.js',
+                    condition: function () {
+                        return !document.body.classList;
+                    }
+                },
+                {
+                    src: 'plugin/markdown/marked.js',
+                    condition: function () {
+                        return !!document.querySelector('[data-markdown]');
+                    }
+                },
+                {
+                    src: 'plugin/markdown/markdown.js',
+                    condition: function () {
+                        return !!document.querySelector('[data-markdown]');
+                    }
+                },
+                {
+                    src: 'plugin/highlight/highlight.js',
+                    async: true,
+                    condition: function () {
+                        return !!document.querySelector('pre code');
+                    },
+                    callback: function () {
+                        hljs.initHighlightingOnLoad();
+                    }
+                },
+                {
+                    src: 'plugin/zoom-js/zoom.js',
+                    async: true
+                },
+                {
+                    src: 'plugin/notes/notes.js',
+                    async: true
+                }
+    ]
+        });
+    </script>
+
+</body>
+
+</html>
